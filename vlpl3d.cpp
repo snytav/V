@@ -49,12 +49,6 @@ infile = "v.ini";
 #endif
 //  delete domain;
 
-#ifdef V_MPI
-//  MPI_Finalize();
-#endif
-  
-//  ParallelFinalize();
-  
   return 0;
 }
 
