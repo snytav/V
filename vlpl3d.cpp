@@ -9,7 +9,7 @@
 
 //#include "vlpl3d.h"
 
-#include "para.h"
+// #include "para.h"
 //#include "CUDA_WRAP/plasma_particles.h"
 
 using namespace std;
