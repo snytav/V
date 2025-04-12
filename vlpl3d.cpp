@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include <iostream>
+
 #include <time.h>
 
 #define X_ACCESS
@@ -9,6 +11,8 @@
 
 //#include "para.h"
 //#include "CUDA_WRAP/plasma_particles.h"
+
+using namespace std;
 
 
 int main(int argc, char** argv)
@@ -34,7 +38,7 @@ int main(int argc, char** argv)
     exit(0);
 */
 
-/*  
+  
   if (argc < 2) {
 	cout << "Usage: v3d <ini-file> \n";
 	cout << "Default name: v.ini will be used \n";
@@ -46,7 +50,6 @@ int main(int argc, char** argv)
   }
 
 infile = "v.ini";
-*/
 
 /*  
 #ifdef V_MPI
