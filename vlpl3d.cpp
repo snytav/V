@@ -28,16 +28,6 @@ int main(int argc, char** argv)
   char processor_name[MPI_MAX_PROCESSOR_NAME];
 #endif
 
-//    ParallelInit(argc,argv);
-    
-/*    printf("after parallel init rank %d \n",GetRank());
-    exit(0);
-
-    ParallelExit();
-    
-    exit(0);
-*/
-
   
   if (argc < 2) {
 	cout << "Usage: v3d <ini-file> \n";
